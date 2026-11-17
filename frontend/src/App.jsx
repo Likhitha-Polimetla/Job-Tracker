@@ -113,7 +113,7 @@ export default function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif', background: '#f8fafc', minHeight: '100vh' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-        <h2>MERN Job Application Tracker</h2>
+        <h2>Job Application Tracker</h2>
         <button onClick={() => { localStorage.clear(); setToken(''); }} style={{ padding: '8px 16px', background: '#ef4444', color: '#fff', border: 'none', cursor: 'pointer' }}>
           Logout
         </button>
